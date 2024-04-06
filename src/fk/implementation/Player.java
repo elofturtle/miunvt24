@@ -34,7 +34,7 @@ public class Player {
 		this.saldo += amount;
 	}
 	
-	private boolean canWithdraw(int amount) {
+	public boolean canWithdraw(int amount) {
 		return amount <= this.saldo;
 	}
 	
